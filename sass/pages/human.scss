@@ -1,0 +1,66 @@
+.container00{
+  &.container08{
+    background-image: url(https://www.spacex.com/human-spaceflight/assets/images/HS-hero.webp);
+  }
+  &.container09{
+    background-image: url(../../imgs/Human/02.jpg);
+  }
+ &.container10{
+  background-image: url(../../imgs/Human/03.jpg);
+ }
+ &.container11{
+  background-image: url(../../imgs/Human/04.jpg);
+ }
+ &.container12{
+  background-image: url(../../imgs/Human/05.jpg);
+ }
+}
+
+#TitleMensage{
+  background-color: black;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .titleHuman{
+    font-size: 200px;
+  }
+}
+
+.Right{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  .RightMensage{
+    margin-right: 350px;
+  }
+
+  .Title2{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .Title3{
+    font-weight: 300;
+  }
+}
+
+.Left{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .LeftMensage{
+    margin-left: 200px;
+  }
+  .Title2{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .Title3{
+    font-weight: 300;
+  }
+}

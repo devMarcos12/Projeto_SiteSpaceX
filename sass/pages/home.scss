@@ -1,0 +1,40 @@
+.container00{
+
+  &.container01{
+    background-image: url(https://www.spacex.com/static/images/backgrounds-2022/crew-5/post-launch/Homepage_Desktop.webp);
+  }
+  &.container02{
+    background-image: url(../../imgs/03.jpg);
+  }
+  &.container03{
+    background-image: url(../../imgs/03.jpg);
+  }
+  &.container04{
+    background-image: url(../../imgs/04.jpg);
+  }
+}
+
+#btn1{
+  padding: 15px 40px;
+  border: 2px solid white;
+  border-radius: 0px;
+  font-weight: 600;
+
+  &:hover{
+    transition: 0.5s;
+  }
+}
+
+.title-padding{
+  padding-top: 600px;
+  width: 500px;
+}
+
+#launch-coming{
+  font-weight: 400;
+}
+
+#short-title{
+  font-weight: 700;
+  max-width: 40%;
+}
